@@ -1,6 +1,6 @@
 export default {
-    name:'blogPost',
-    title:'Archive',
+    name:'twentyTenPost',
+    title:'2010 Archive',
     type: 'document',
     fields: [
         {

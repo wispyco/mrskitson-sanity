@@ -7,6 +7,8 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 // Then we import our custom schemas -AK
 import blogPost from './blogPost';
 import imagePost from './imagePost';
+import twentyTenPost from './twentyTenPost';
+import twentyElevenPost from './twentyElevenPost';
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -17,6 +19,8 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     blogPost,
-    imagePost
+    imagePost,
+    twentyTenPost,
+    twentyElevenPost
   ])
 })
